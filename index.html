@@ -7,6 +7,89 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-<script src="app.js"></script>
+    <main>
+        <section id="container">
+            <h2>Get personalised recommendation</h2>
+            <p>Take our Hair Popp Quiz</p>
+            <button id="start" onclick="handleStart()">Start</button>
+            <button id="cancel" onclick="clearContainer()">Cancel</button>
+        </section>
+
+        <!-- New section that initially remains hidden -->
+        <section id="newSection" style="display: none;">
+            <h2>New Section</h2>
+            <p>This is the new section content.</p>
+        </section>
+
+        <!-- Carousel sections -->
+        <section id="section1" class="carousel-section" style="display: none;"> 
+            <h2>1. Who are you buying for? Tick as many as apply.</h2>
+            <input type="checkbox" name="Female" id="Female"><label for="Female">Female</label>
+            <br>
+            <input type="checkbox" name="Male" id="Male"><label for="Male">Male</label>
+            <br>
+            <input type="checkbox" name="Child" id="Child"><label for="Child">Child</label>
+            <br>
+            <button class="next-button" onclick="showNextSection()">Next</button>
+        </section>
+
+        <section id="section2" class="carousel-section" style="display: none;">
+            <h2>2. Which image best describes your hair? Choose as many as apply.</h2>
+            <img src="assets/3c hair.webp" alt="">
+            <img src="assets/4a hair.jpeg" alt="">
+            <img src="assets/4c hair.webp" alt="">
+            <br>
+            <button class="prev-button" onclick="showPrevSection()">Previous</button>
+            <button class="next-button" onclick="showNextSection()">Next</button>
+        </section>
+
+        <section id="section3" class="carousel-section" style="display: none;">
+            <h2>3. What are your top 3 hair concerns?</h2>
+            <input type="checkbox" name="Dryness" id="Dryness"><label for="Dryness">Dryness</label>
+            <br>
+            <input type="checkbox" name="Beard growth" id="Beard growth"><label for="Beard growth">Beard growth</label>
+            <br>
+            <input type="checkbox" name="Hair loss" id="Hair loss"><label for="Hair loss">Hair loss</label>
+            <br>
+            <input type="checkbox" name="Scalp issues" id="Scalp issues"><label for="Scalp issues">Scalp issues</label>
+            <br>
+            <input type="checkbox" name="Breakage" id="Breakage"><label for="Breakage">Breakage</label>
+            <br>
+            <input type="checkbox" name="Split ends" id="Split ends"><label for="Split ends">Split ends</label>
+            <br>
+            <button class="prev-button" onclick="showPrevSection()">Previous</button>
+            <button class="next-button" onclick="showNextSection()">Next</button>
+        </section>
+
+        <section id="section4" class="carousel-section" style="display: none;">
+            <h2>4. Any other concerns/ things we need to consider? Tick as many as apply.</h2>
+            <input type="checkbox" name="Allergies" id="Allergies"><label for="Allergies">Allergies</label>
+            <br>
+            <input type="checkbox" name="Vegan" id="Vegan"><label for="Vegan">Vegan</label>
+            <br>
+            <input type="checkbox" name="Organic" id="Organic"><label for="Organic">Organic</label>
+            <br>
+            <input type="checkbox" name="Sensitive" id="Sensitive"><label for="Sensitive">Sensitive</label>
+            <br>
+            <input type="checkbox" name="Fragrance free" id="Fragrance free"><label for="Fragrance free">Fragrance free</label>
+            <br>
+            <input type="checkbox" name="Cruelty free" id="Cruelty free"><label for="Cruelty free">Cruelty free</label>
+            <br>
+            <button class="prev-button" onclick="showPrevSection()">Previous</button>
+            <button class="next-button" onclick="showNextSection()">Next</button>
+        </section>
+
+        <section id="section5" class="carousel-section" style="display: none;">
+            <h2>Here are 5 product recommendations for you:</h2>
+            <img src="/assets/p1.png" alt="">
+            <img src="/assets/p2.jpeg" alt="">
+            <img src="assets/p3.jpeg" alt="">
+            <img src="assets/p4.png" alt="">
+            <img src="assets/p5.jpeg" alt="">
+            <br>
+            <button class="satisfied">Still not satisfied? Chat with us!</button>
+        </section>
+    </main>
+    <script src="app.js"></script>
 </body>
 </html>
