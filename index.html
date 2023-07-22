@@ -7,13 +7,72 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <section id="container">
-        <form action="">
-        <h2>Get personalised recommendation</h2>
-        <p>Take our Hair Popp Quiz</p>
-        <p>Cancel</p>
-    </form>
-    </section>
-<script src="app.js"></script>
+    <main>
+        <section id="container">
+            <h2>Get personalised recommendation</h2>
+            <p>Take our Hair Popp Quiz</p>
+            <button id="start" onclick="handleStart()">Start</button>
+            <button id="cancel" onclick="clearContainer()">Cancel</button>
+        </section>
+
+        <!-- New section that initially remains hidden -->
+        <section id="newSection" style="display: none;">
+            <h2>New Section</h2>
+            <p>This is the new section content.</p>
+        </section>
+
+        <!-- Carousel sections -->
+        <section id="section1" class="carousel-section" style="display: none;"> 
+            <h2>1. Who are you buying for?</h2>
+            <input type="checkbox" name="Female" id="Female"><label for="Female">Female</label>
+            <br>
+            <input type="checkbox" name="Male" id="Male"><label for="Male">Male</label>
+            <br>
+            <input type="checkbox" name="Child" id="Child"><label for="Child">Child</label>
+            <br>
+            <button class="next-button" onclick="showNextSection()">Next</button>
+        </section>
+
+        <section id="section2" class="carousel-section" style="display: none;">
+            <h2>2. Which image best describes your hair? Choose all that apply.</h2>
+            <img src="" alt="">
+            <img src="" alt="">
+            <img src="" alt="">
+            <button class="prev-button" onclick="showPrevSection()">Previous</button>
+            <button class="next-button" onclick="showNextSection()">Next</button>
+        </section>
+
+        <section id="section3" class="carousel-section" style="display: none;">
+            <h2>3. What are your top 3 hair concerns?</h2>
+            <input type="checkbox" name="Dryness" id="Dryness"><label for="Dryness">Dryness</label>
+            <br>
+            <input type="checkbox" name="Beard growth" id="Beard growth"><label for="Beard growth">Beard growth</label>
+            <br>
+            <input type="checkbox" name="Hair loss" id="Hair loss"><label for="Hair loss">Hair loss</label>
+            <br>
+            <input type="checkbox" name="Scalp issues" id="Scalp issues"><label for="Scalp issues">Scalp issues</label>
+            <br>
+            <input type="checkbox" name="Breakage" id="Breakage"><label for="Breakage">Breakage</label>
+            <br>
+            <input type="checkbox" name="Split ends" id="Split ends"><label for="Split ends">Split ends</label>
+            <br>
+            <button class="prev-button" onclick="showPrevSection()">Previous</button>
+            <button class="next-button" onclick="showNextSection()">Next</button>
+        </section>
+
+        <section id="section4" class="carousel-section" style="display: none;">
+            <h2>Section 4</h2>
+            <p>This is the content of Section 4.</p>
+            <button class="prev-button" onclick="showPrevSection()">Previous</button>
+            <button class="next-button" onclick="showNextSection()">Next</button>
+        </section>
+
+        <section id="section5" class="carousel-section" style="display: none;">
+            <h2>Section 5</h2>
+            <p>This is the content of Section 5.</p>
+            <button class="prev-button" onclick="showPrevSection()">Previous</button>
+        </section>
+    </main>
+    <script src="app.js"></script>
 </body>
 </html>

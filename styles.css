@@ -8,9 +8,12 @@ body {
 }
 
 
-#container{
+section {
     width: 50%;
+    margin: auto;
     background-color: white;
     border: 1px solid grey;
     padding: 30px;
+    margin-top: 20%;
+    z-index: 100;
 }
