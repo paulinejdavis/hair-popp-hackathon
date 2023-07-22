@@ -1,5 +1,6 @@
 # hair-popp-hackathon
-<img width="208" alt="Screenshot 2023-07-22 at 14 09 44" src="https://github.com/paulinejdavis/hair-popp-hackathon/assets/111147520/45289f11-9fb2-4f9d-bee8-afe149a53cc1">![IMG-20230722-WA0011](https://github.com/paulinejdavis/hair-popp-hackathon/assets/111147520/43814a3e-488b-47c5-bc5d-9dd40cce44e5)
+<img width="208" alt="Screenshot 2023-07-22 at 14 09 44" src="https://github.com/paulinejdavis/hair-popp-hackathon/assets/111147520/45289f11-9fb2-4f9d-bee8-afe149a53cc1"> <img width="208" alt="Screenshot 2023-07-22 at 14 09 44" src="https://github.com/paulinejdavis/hair-popp-hackathon/assets/111147520/48d8dfcc-7d9d-46be-bfe8-e20c7d5ad044">
+
 
 
 
