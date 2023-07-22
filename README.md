@@ -4,6 +4,12 @@
 ## Popp!! Quiz
 
 ```
+A questionaire which allows a consumer to directly receivee a product recommendation based
+on the results of a quiz to pinpoint direct issues or their concerns.
 
+```
 
+## How to run
+```
+cd ...
 ```
