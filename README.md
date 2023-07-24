@@ -14,6 +14,9 @@ on the results of a quiz to pinpoint direct issues or their concerns.
 
 ```
 
+## Presentation
+https://docs.google.com/presentation/d/1tRJPyE4wesKgdiNNlzHI2DxE5Mh2AjRNE7ZdDqymADA/edit#slide=id.g25b1132a8e1_0_5
+
 ## How to run
 ```
 cd ...
